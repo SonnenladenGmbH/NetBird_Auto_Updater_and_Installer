@@ -1,6 +1,4 @@
 # NetBird Auto Updater & Installer
-
-
 A simple Bash script that installs or updates [NetBird](https://github.com/netbirdio/netbird) to the latest release on Ubuntu/Debian-based systems, directly from GitHub.
 
 This script detects your architecture (`amd64` or `arm64`), fetches the latest `.deb` release, installs required dependencies, and installs or updates NetBird with ease.
@@ -37,11 +35,10 @@ Do not blindly rely on automation in production-critical systems. Always test in
 
 ## 📥 Usage
 
-### 🔧 1. Clone the Repo
+### 🧩 1. Download the Script via `wget`
 
 ```bash
-git clone https://github.com/SonnenladenGmbH/netbird-auto-updater.git
-cd netbird-auto-updater
+wget https://raw.githubusercontent.com/SonnenladenGmbH/NetBird_Auto_Updater_and_Installer/main/netbird_auto_updater.sh
 ```
 
 ### 🔓 2. Make the Script Executable
@@ -81,7 +78,7 @@ Add this line to run the updater every day at 3:00 AM:
 
 ## ☀️ Get to know NetBird
 
-They offer a great free self-hosted version and also paid cloud-plans: 
+They offer a great free self-hosted version and also paid cloud-plans:  
 https://netbird.io/ | [@netbirdio](https://github.com/netbirdio)
 
 ---
