@@ -50,12 +50,12 @@ chmod +x netbird_auto_updater.sh
 ### 🚀 3. Run It
 
 ```bash
-sudo ./netbird_auto_updater.sh
+sudo bash netbird_auto_updater.sh
 ```
 
-> You can also run it like this:
+> ▶️ During the initial installation, you need to set up NetBird and connect it to your server. This step is not required when updating.
 > ```bash
-> sudo bash netbird_auto_updater.sh
+> netbird up
 > ```
 
 ---
